@@ -54,9 +54,19 @@ input {
 /* Certificate */
 #certificate-container {
     position: relative;
-    width: 1000px;
+    width: 1123px;      /* Fixed width (A4 landscape ratio) */
+    height: 794px;      /* Fixed height */
     margin: 30px auto;
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    background: white;
+}
+
+.bg {
+    width: 1123px;
+    height: 794px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .bg {
@@ -64,15 +74,15 @@ input {
 }
 #nameField {
     position: absolute;
-    top: 255px;            /* FINAL vertical position */
+    top: 315px;          /* Perfect vertical for your template */
     left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 40px;
+    transform: translateX(-50%);
+    font-size: 36px;
     font-weight: bold;
     font-family: "Times New Roman", serif;
     color: black;
     text-align: center;
-    width: 65%;
+    width: 70%;
 }
 
 
