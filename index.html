@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viksit Bharat Certificate Portal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- PDF Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <h1>Viksit Bharat Certificate Portal</h1>
+    <p>Generate your participation certificate instantly</p>
+</div>
+
+<div class="card">
+    <input type="text" id="nameInput" placeholder="Enter your full name">
+    <div class="buttons">
+        <button onclick="generateCertificate()">Generate Certificate</button>
+        <button class="download" onclick="downloadPDF()">Download PDF</button>
+    </div>
+</div>
+
+<div id="certificate-container">
+    <img src="certificate.png" class="bg">
+    <div id="nameField">Your Name</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
