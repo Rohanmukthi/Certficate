@@ -62,18 +62,15 @@ input {
 .bg {
     width: 100%;
 }
-
 #nameField {
     position: absolute;
-    top: 255px;
+    top: 255px;            /* FINAL vertical position */
     left: 50%;
     transform: translate(-50%, 0);
-    font-size: 34px;   /* Reduced from 40 */
+    font-size: 39px;
     font-weight: bold;
     font-family: "Times New Roman", serif;
     color: black;
     text-align: center;
     width: 65%;
 }
-
-
