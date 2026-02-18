@@ -64,7 +64,7 @@ input {
 }
 #nameField {
     position: absolute;
-    top: 290px;          /* Final balanced position */
+    top: 295px;          /* Small move DOWN */
     left: 50%;
     transform: translateX(-50%);
     font-size: 34px;
@@ -74,6 +74,7 @@ input {
     text-align: center;
     width: 65%;
 }
+
 
 
 
