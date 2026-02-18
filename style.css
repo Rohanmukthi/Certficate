@@ -65,14 +65,13 @@ input {
 
 #nameField {
     position: absolute;
-    top: 300px;          /* Move UP */
+    top: 265px;          /* Correct vertical position */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 38px;
+    font-size: 40px;
     font-weight: bold;
     font-family: "Times New Roman", serif;
     color: black;
-    text-transform: capitalize;
-    padding: 2px 20px;
+    text-align: center;
+    width: 70%;
 }
-
