@@ -63,17 +63,16 @@ input {
     width: 100%;
 }
 
-/* Name Styling */
 #nameField {
     position: absolute;
-    top: 330px;
+    top: 300px;          /* Move UP */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
     font-family: "Times New Roman", serif;
     color: black;
     text-transform: capitalize;
-    border-bottom: 2px solid black;
-    padding: 5px 30px;
+    padding: 2px 20px;
 }
+
