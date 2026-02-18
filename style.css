@@ -64,13 +64,15 @@ input {
 }
 #nameField {
     position: absolute;
-    top: 255px;            /* FINAL vertical position */
+    top: 285px;          /* Correct vertical position */
     left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 39px;
+    transform: translateX(-50%);
+    font-size: 34px;     /* Balanced size */
     font-weight: bold;
     font-family: "Times New Roman", serif;
     color: black;
     text-align: center;
     width: 65%;
 }
+
+
